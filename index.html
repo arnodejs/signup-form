@@ -7,5 +7,100 @@
     <link rel="stylesheet" href="style.css" />
     <title>Signup form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="app">
+      <div class="signup-bg-img">
+        <h1 class="signup-logo">odin</h1>
+        <p class="signup-bg-img-caption">
+          Photo by
+          <a href="https://unsplash.com/@liliantruong2603"> Truong Tuyet Ly</a>
+          on <a href="https://unsplash.com">Unsplash</a>
+        </p>
+      </div>
+      <div class="signup-form-container">
+        <div class="signup-form-text">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <form class="signup-form">
+          <h2 class="signup-form-title">Let&apos;s do this!</h2>
+          <div class="signup-form-inputs">
+            <div class="signup-form-row">
+              <p>
+                <label for="first_name">First name</label>
+                <input
+                  id="first_name"
+                  name="first_name"
+                  type="text"
+                  required
+                  maxlength="26"
+                />
+              </p>
+              <p>
+                <label for="last_name">Last name</label>
+                <input
+                  id="last_name"
+                  name="last_name"
+                  type="text"
+                  required
+                  maxlength="26"
+                />
+              </p>
+            </div>
+            <div class="signup-form-row">
+              <p>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+              </p>
+              <p>
+                <label for="phone">Phone number</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  required
+                  maxlength="20"
+                />
+              </p>
+            </div>
+            <div class="signup-form-row">
+              <p>
+                <label for="psw">password</label>
+                <input
+                  id="psw"
+                  name="password"
+                  type="password"
+                  required
+                  minlength="6"
+                />
+              </p>
+              <p>
+                <label for="confirm_psw">Confirm password</label>
+                <input
+                  id="confirm_psw"
+                  name="confirm_password"
+                  type="password"
+                  required
+                  minlength="6"
+                />
+              </p>
+            </div>
+            <div class="signup-form-row">
+              <button>Create account</button>
+            </div>
+            <div class="signup-form-row">
+              <p>
+                Already have an account?
+                <a href="#" class="signup-form-link">Log in</a>
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
